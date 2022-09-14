@@ -71,9 +71,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 The following images show the web application's appearance and functionality:
 
-[![Express.js: Note Taker](./Develop/public/assets/images/noteTaker-demo-01.png)](https://github.com/xndroli/Note-Taker/)
+[![Express.js: Note Taker](./public/assets/images/noteTaker-demo-01.png)](https://github.com/xndroli/Note-Taker/)
 
-[![Express.js: Note Taker](./Develop/public/assets/images/noteTaker-demo-02.png)](https://github.com/xndroli/Note-Taker/)
+[![Express.js: Note Taker](./public/assets/images/noteTaker-demo-02.png)](https://github.com/xndroli/Note-Taker/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
