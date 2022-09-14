@@ -1,12 +1,10 @@
 <a name="readme-top"></a>
 
-<h3 align="center">MERN: Google Book Search Engine </h3>
+<h3 align="center">Express.js: Note Taker </h3>
 
 <div align="center">
 
-[![MongoDB](https://img.shields.io/badge/MongoDB-green.svg)](https://www.mongodb.com/)
 [![Express.js](https://img.shields.io/badge/expressjs-orange.svg)](https://expressjs.com/)
-[![Mongoose.js](https://img.shields.io/badge/mongoosejs-red.svg)](https://mongoosejs.com/)
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![Repo Size](https://img.shields.io/github/repo-size/xndroli/Note-Taker.svg)](https://github.com/xndroli/Note-Taker/issues)
@@ -42,9 +40,9 @@ The application’s front end has already been created. Therefore, I will build 
 ## 💡 User Story <a name = "user_story"></a>
 
 ```md
-AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -52,52 +50,30 @@ SO THAT I can keep a list of books to purchase
 ## ⛓️ Acceptance Criteria <a name = "acceptance_criteria"></a>
 
 ```md
-GIVEN a book search engine
-WHEN I load the search engine
-THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
-WHEN I click on the Search for Books menu option
-THEN I am presented with an input field to search for books and a submit button
-WHEN I am not logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
-WHEN I click on the Login/Signup menu option
-THEN a modal appears on the screen with a toggle between the option to log in or sign up
-WHEN the toggle is set to Signup
-THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
-WHEN the toggle is set to Login
-THEN I am presented with two inputs for an email address and a password and login button
-WHEN I enter a valid email address and create a password and click on the signup button
-THEN my user account is created and I am logged in to the site
-WHEN I enter my account’s email address and password and click on the login button
-THEN I the modal closes and I am logged in to the site
-WHEN I am logged in to the site
-THEN the menu options change to Search for Books, an option to see my saved books, and Logout
-WHEN I am logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-WHEN I click on the Save button on a book
-THEN that book’s information is saved to my account
-WHEN I click on the option to see my saved books
-THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
-WHEN I click on the Remove button on a book
-THEN that book is deleted from my saved books list
-WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🎞️ Demo <a name = "demo"></a>
 
-As you can see in the following animation, a user can type a search term (in this case, "star wars") in a search box and the results appear:
+The following images show the web application's appearance and functionality:
 
-[![MERN: Google Book Search Engine Demo](./assets/images/googlebooks-app-demo-01.gif)](https://github.com/xndroli/Note-Taker/)
+[![Express.js: Note Taker](./public/assets/images/noteTaker-demo-01.png)](https://github.com/xndroli/Note-Taker/)
 
-The user can save books by clicking "Save This Book!" under each search result, as shown in the following animation:
-
-[![MERN: Google Book Search Engine Demo](./assets/images/googlebooks-app-demo-02.gif)](https://github.com/xndroli/Note-Taker/)
-
-A user can view their saved books on a separate page, as shown in the following animation:
-
-[![MERN: Google Book Search Engine Demo](./assets/images/googlebooks-app-demo-03.gif)](https://github.com/xndroli/Note-Taker/)
+[![Express.js: Note Taker](./public/assets/images/noteTaker-demo-02.png)](https://github.com/xndroli/Note-Taker/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,9 +111,7 @@ If you have nodemon:
 
 ## ⛏️ Built With <a name = "built_with"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
 - [Express.js](https://expressjs.com/) - Server Framework
-- [Mongoose.js](https://mongoosejs.com/) - Object Data Modeling
 - [Node.js](https://nodejs.org/en/) - Server Environment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
