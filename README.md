@@ -21,6 +21,8 @@ I will create an application called Note Taker that can be used to write and sav
 
 The application’s front end has already been created. Therefore, I will build the back end, connect the two, and then deploy the entire application to Heroku.
 
+[Link to deployed Application](https://radiant-atoll-16681.herokuapp.com/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 Table of Contents
@@ -74,6 +76,8 @@ The following images show the web application's appearance and functionality:
 [![Express.js: Note Taker](./public/assets/images/noteTaker-demo-01.png)](https://github.com/xndroli/Note-Taker/)
 
 [![Express.js: Note Taker](./public/assets/images/noteTaker-demo-02.png)](https://github.com/xndroli/Note-Taker/)
+
+[Link to deployed Application](https://radiant-atoll-16681.herokuapp.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
